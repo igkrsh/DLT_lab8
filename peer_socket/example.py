@@ -40,7 +40,7 @@ if __name__ == "__main__":
                 PeerSocket(('localhost', 9101), different_key)
             ]
 
-    main_node = 4
+    main_node = randint(0, 4)
     votes = 0
 
     def greeting_wrapper(key):
